@@ -16,12 +16,17 @@ A network
 2 subnets
 
 2 Load balancers, although 1 unused
+
 1 Website VM w/ NIC w/ public IP
 
 1 availability set for MySQL VMs
+
 2 MySQL Database VMs w/ NIC w/ internal IP's
+
 2 NSG's, one for each subnet
+
 1 unsuccessful attempt at creating a functional NAT-gateway
+
 The Webserver_scripts and its contents is necessary for the website VM to work.
 
 Delete the existing NAT-gateway and its public IP, and create new pub IP's for the NIC's to SSH into the MySQL VMs to run the commands
