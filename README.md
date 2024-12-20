@@ -2,16 +2,12 @@
 the barnyard movie or flushed away, pick your poison
 
 !!NOTE!!
-
 From modules/vm/main.tf, lines 37-48, linux commands for the mySQL vm's must be used manually since my stupid ass cant get it to work automatically upon startup
-
 !!NOTE!!
-
 From modules/vm/main.tf, lines 74-118, change directories to match your own choices
-
 !!NOTE!!
 
-Download the terraform.zip file
+Download the terraform files.zip file
 
 Preferably keep the majority of files inside this directory > C:\Users\YourNameHere\Documents\Terraform
 
